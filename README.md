@@ -31,7 +31,7 @@ decimals('USD') // Get decimals of currency
 symbol('USD') // Get symbol of currency
 ```
 
-### The currency instance
+### The currency object
 ```js
 {
   iso: 'USD',
