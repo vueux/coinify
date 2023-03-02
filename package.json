@@ -1,10 +1,17 @@
 {
   "name": "coinify",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "Get currency ISO 4217 data",
   "main": "index.js",
   "type": "module",
   "repository": "https://github.com/vueux/coinify",
   "author": "VueUX",
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": [
+    "ISO",
+    "4217",
+    "currency",
+    "coin",
+    "money"
+  ]
 }
