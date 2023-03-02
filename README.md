@@ -1,4 +1,4 @@
-# Coinify
+# Coinify - Get currency ISO 4217 data
 
 ```bash
 npm i coinify
@@ -6,7 +6,7 @@ npm i coinify
 
 ## Usage
 
-### Import the whole instance
+### Import the whole library
 
 ```js
 import coinify from 'coinify'
@@ -23,7 +23,6 @@ coinify.currency('USD') // Get the whole currency object
 ```
 
 ### Import part of the library
-
 ```js
 import { listNaturals, decimals, symbol } from 'coinify'
 
@@ -32,6 +31,7 @@ decimals('USD') // Get decimals of currency
 symbol('USD') // Get symbol of currency
 ```
 
+### The currency instance
 ```js
 {
   iso: 'USD',
